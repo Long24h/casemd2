@@ -1,6 +1,5 @@
 package views.login.view.allloginview;
-
-import views.login.AdminView;
+;
 import views.login.AllAdminManage;
 import views.login.view.LoginTemplate;
 import service.UserService;
@@ -33,8 +32,6 @@ public class CheckLoginView extends LoginTemplate {
                         System.out.println("Welcome back, admin!");
                         System.out.println("Hello " + user.getFullName());
                         AllAdminManage allAdminManage = new AllAdminManage();
-
-//                        AdminView adminView = new AdminView();
                         flag = false;
                         break;
                     }

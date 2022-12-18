@@ -1,7 +1,5 @@
 package views.login;
 
-import views.CustomerView;
-import views.OrderItemView;
 import views.login.view.LoginTemplate;
 import views.ProductView;
 
@@ -20,12 +18,6 @@ public class AllAdminManage extends LoginTemplate {
                 case 2:
                     ProductView productView = new ProductView();
                     break;
-                case 3:
-                    CustomerView customerView = new CustomerView();
-                    break;
-                case 4:
-                    OrderItemView orderItemView = new OrderItemView();
-                    break;
                 case 0:
                     LoginView loginView = new LoginView();
                     break;
@@ -40,8 +32,6 @@ public class AllAdminManage extends LoginTemplate {
         System.out.println("=                                                =");
         System.out.println("=              1. Manage User                    =");
         System.out.println("=              2. Manage Product                 =");
-        System.out.println("=              3. Manage Customer                =");
-        System.out.println("=              4. Manage Order Item              =");
         System.out.println("=              0. Exit!                          =");
         System.out.println("=                                                =");
         System.out.println("==================================================");

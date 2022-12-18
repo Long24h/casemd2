@@ -11,7 +11,7 @@ public class ProductView extends ProductTemplate {
     }
     @Override
     protected void showBody() {
-        boolean flag = false;
+        boolean flag = true;
         do {
             try {
                 menuProductView();
@@ -41,12 +41,11 @@ public class ProductView extends ProductTemplate {
                         break;
                     default:
                         System.out.println("Wrong input, try again!");
-                        flag = true;
+                        flag = false;
                         break;
                 }
             } catch (Exception e) {
                 System.err.println("Wrong input, try again!!!!!");
-                flag = true;
                 e.printStackTrace();
             }
         } while (flag);
