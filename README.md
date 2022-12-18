@@ -1,4 +1,4 @@
-# CoffeeShopManager
+# CoffeeShop
 
 
 ## What is this?
